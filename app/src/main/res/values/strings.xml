@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">UAP Fall 2018</string>
+
+    <string name="_4th_year_n_2nd_semester">4th Year\n2nd Semester</string>
+    <string name="_4th_year_n1st_semester">4th Year\n1st Semester</string>
+    <string name="_3rd_year_2nd_semester">3rd Year\n2nd Semester</string>
+    <string name="_3rd_year_1st_semester">3rd Year\n1st Semester</string>
+    <string name="_2nd_year_2nd_semester">2nd Year\n2nd Semester</string>
+    <string name="_2nd_year_1st_semester">2nd Year\n1st Semester</string>
+    <string name="_1st_year_2nd_semester">1st Year\n2nd Semester</string>
+    <string name="_1st_year_1st_semester">1st Year\n1st Semester</string>
+    <string name="notice">University of Asia Pacific has been functioning as a unique institution of higher learning. Its reputation has grown rapidly, as it has already achieved eminence above most of the seats of higher learning of the country. Its commitment to excellence is demonstrated through the quality of its academic services and its invaluable contribution to learning. With its eminent administrators and excellent faculty members it is assuming a leading role in the educational arena of Bangladesh.</string>
+    <string name="dept_of_cse">Dept. of CSE</string>
+    <string name="md_imran_nazir_emon">MD. IMRAN NAZIR EMON</string>
+    <string name="todo">TODO</string>
+    <string name="about_us">About US</string>
+    <string name="university_of_asia_pacific">University of Asia Pacific</string>
+    <string name="welcome_to_uap_you_can_check_your_course_details_from_this_section_course_details_is_collected_from_uap_website_all_rights_reserved_by_university_of_asia_pacific">Welcome to UAP. You can check your course details from this section. Course details is collected from UAP website. All rights reserved by University of Asia Pacific.</string>
+
+</resources>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_weight="10"
+    android:weightSum="10"
+    android:background="@drawable/gr1"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <Button
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/header_cse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:layout_marginTop="5sp"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/marque"
+            android:textColor="@android:color/black"
+            android:fontFamily="@font/rupali"
+            android:text="@string/welcome_to_uap_you_can_check_your_course_details_from_this_section_course_details_is_collected_from_uap_website_all_rights_reserved_by_university_of_asia_pacific"
+            android:id="@+id/notice_board_course"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="2"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:onClick="onVirtualCourse"
+            android:id="@+id/firstfirst"
+            android:background="#FFFFFF"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textSize="25sp"
+                android:textColor="@android:color/black"
+                android:text="@string/_1st_year_1st_semester"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/margot"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:onClick="onVirtualCourse"
+            android:id="@+id/firstsecond"
+            android:background="#FFFFFF"
+            android:layout_height="match_parent">
+            <TextView
+                android:textSize="25sp"
+                android:textColor="@android:color/black"
+                android:text="@string/_1st_year_2nd_semester"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/margot"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:background="#FFFFFF"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:onClick="onVirtualCourse"
+            android:id="@+id/secondfirst"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textSize="25sp"
+                android:textColor="@android:color/black"
+                android:text="@string/_2nd_year_1st_semester"
+                android:gravity="center"
+                android:fontFamily="@font/margot"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:onClick="onVirtualCourse"
+            android:id="@+id/secondsecond"
+            android:background="#FFFFFF"
+            android:layout_height="match_parent">
+            <TextView
+                android:textSize="25sp"
+                android:textColor="@android:color/black"
+                android:text="@string/_2nd_year_2nd_semester"
+                android:gravity="center"
+                android:fontFamily="@font/margot"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:background="#FFFFFF"
+        android:layout_weight="2"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:onClick="onVirtualCourse"
+            android:id="@+id/thirdfirst"
+            android:background="#FFFFFF"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textSize="25sp"
+                android:textColor="@android:color/black"
+                android:text="@string/_3rd_year_1st_semester"
+                android:gravity="center"
+                android:fontFamily="@font/margot"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:onClick="onVirtualCourse"
+            android:id="@+id/thirdsecond"
+            android:gravity="center"
+            android:background="#FFFFFF"
+            android:layout_height="match_parent">
+            <TextView
+                android:textSize="25sp"
+                android:textColor="@android:color/black"
+                android:text="@string/_3rd_year_2nd_semester"
+                android:gravity="center"
+                android:fontFamily="@font/margot"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:onClick="onVirtualCourse"
+            android:id="@+id/fourthfirst"
+            android:background="#FFFFFF"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textSize="25sp"
+                android:textColor="@android:color/black"
+                android:text="@string/_4th_year_n1st_semester"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/margot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:onClick="onVirtualCourse"
+            android:id="@+id/fourthsecond"
+            android:background="#FFFFFF"
+            android:layout_height="match_parent">
+            <TextView
+                android:textSize="25sp"
+                android:textColor="@android:color/black"
+                android:text="@string/_4th_year_n_2nd_semester"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/margot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
